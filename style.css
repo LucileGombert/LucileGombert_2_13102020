@@ -55,3 +55,148 @@ ul
     color: #0065FC;
     font-weight: bold;
 }
+
+
+/*Section search*/
+.search_section h1
+{
+    font-size: 1.4em;
+    margin-top: 1em ;
+    margin-bottom: 0.4em;
+}
+
+.search_area
+{
+    margin-top: 1em;
+    display: flex;
+}
+
+#ico_map
+{
+    border: 1px #F2F2F2 solid;
+    border-bottom-left-radius: 12px;
+    border-top-left-radius: 12px;
+    background-color: #F2F2F2;
+    padding: 0.8em;
+}
+
+.search_line
+{
+    border-right: none;
+    border-left: none;
+    border-top: 1px #F2F2F2 solid;
+    border-bottom: 1px #F2F2F2 solid;
+    padding: 0.7em 1em;
+    width: 13em;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.search_button
+{
+    border: 1px #0065FC solid;
+    border-bottom-right-radius: 12px;
+    border-top-right-radius: 12px;
+    background-color: #0065FC;
+    padding: 0.8em;
+    color: white;
+    font-weight: 600;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+
+.icon_img
+{
+    color: #0065FC;
+}
+
+.icon_circle
+{
+    background-color: #DEEBFF;
+    border-radius:50%;
+    width:3.1em;
+    height:3.1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.7em;
+}
+
+.filter1
+{
+    border: 2px #F2F2F2 solid;
+    border-radius: 35px;
+    width: 11em;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-right: 1.5em;
+}
+
+.filter2
+{
+    border: 2px #F2F2F2 solid;
+    border-radius: 35px;
+    width: 9em;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-right: 1.5em;
+}
+
+.filter3
+{
+    border: 2px #F2F2F2 solid;
+    border-radius: 35px;
+    width: 11em;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-right: 1.5em;
+}
+
+.filter4
+{
+    border: 2px #F2F2F2 solid;
+    border-radius: 35px;
+    width: 14em;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-right: 1.5em;
+}
+
+.all_filters
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 1.5em;
+}
+
+.filters_div
+{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2em;
+}
+
+.info_circle
+{
+    background-color: white;
+    border: 1px #F2F2F2 solid;
+    border-radius:50%;
+    width:1.1em;
+    height:1.1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.7em;
+}
+
+.info_div
+{
+    display: flex;
+    margin-top: 2em;
+}
