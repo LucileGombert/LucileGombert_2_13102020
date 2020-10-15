@@ -57,7 +57,8 @@ ul
 }
 
 
-/*Section search*/
+
+/*Section search*//*Search*/
 .search_section h1
 {
     font-size: 1.4em;
@@ -105,22 +106,20 @@ ul
     cursor: pointer;
 }
 
-
-.icon_img
+/*Section search*//*Filters*/
+.filters_div
 {
-    color: #0065FC;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2em;
 }
 
-.icon_circle
+.all_filters
 {
-    background-color: #DEEBFF;
-    border-radius:50%;
-    width:3.1em;
-    height:3.1em;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 0.7em;
+    flex-wrap: wrap;
+    margin-left: 1.5em;
 }
 
 .filter1
@@ -167,18 +166,46 @@ ul
     margin-right: 1.5em;
 }
 
-.all_filters
+.icon_circle
 {
+    background-color: #DEEBFF;
+    border-radius:50%;
+    width:3.1em;
+    height:3.1em;
     display: flex;
-    flex-wrap: wrap;
-    margin-left: 1.5em;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.7em;
 }
 
-.filters_div
+.icon_img
+{
+    color: #0065FC;
+}
+
+/*Section search*//*Link filters*/
+.link a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.link :hover
+{
+    font-style: italic;
+    background-color: #DEEBFF;
+}
+
+.icon_circle :hover
+{
+    text-decoration: none;
+    font-style: normal;
+}
+
+/*Section search*//*Info*/
+.info_div
 {
     display: flex;
-    align-items: center;
-    flex-wrap: wrap;
     margin-top: 2em;
 }
 
@@ -195,8 +222,114 @@ ul
     margin-right: 0.7em;
 }
 
-.info_div
+
+
+/*Section accommodation*/
+#section_accommodation
 {
-    display: flex;
+    background-color:#F2F2F2;
+    border-radius: 12px;
     margin-top: 2em;
 }
+
+#section_accommodation h1
+{
+    padding-top: 1.5em;
+    padding-left: 1.4em;
+}
+
+.show_more
+{
+    padding-bottom: 1.5em;
+    padding-left: 1.6em;
+    font-weight: bold;
+}
+
+.show_more a
+{
+    text-decoration: none;
+    color: black;
+}
+.bloc_accommodation
+{
+    display: grid;
+    padding: 1em;
+}
+
+.accommodation_card
+{
+    border: 1px white solid;
+    border-radius: 12px;
+    box-shadow: 2px 1px 8px grey;
+    background-color: white;
+    padding: 0.5em;
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.bloc_accommodation a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.accommodation_card a:hover
+{
+    font-style: italic;
+    box-shadow: 20px 10px 90px #DEEBFF;
+}
+
+
+.accommodation_card img
+{
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    max-width: 100%;
+    max-height: 150px;
+}
+
+.accommodation_card h2
+{
+    font-size: 1.1em;
+}
+
+.stars
+{
+    display: flex;
+}
+
+.blue_stars
+{
+    color: #0065FC;
+}
+
+.grey_stars
+{
+    color: #F2F2F2;
+}
+
+.one
+{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.two
+{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.three
+{
+    grid-column: 3;
+    grid-row: 1;
+}
+
+
+
+    
+
+
+
