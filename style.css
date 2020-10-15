@@ -5,7 +5,7 @@
     font-family: 'Raleway', sans-serif;
 }
 
-main
+body
 {
     max-width: 1199px;
     margin: auto; 
@@ -223,6 +223,14 @@ ul
 }
 
 
+/*Main*/
+main
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+
 
 /*Section accommodation*/
 #section_accommodation
@@ -230,6 +238,7 @@ ul
     background-color:#F2F2F2;
     border-radius: 12px;
     margin-top: 2em;
+    width: 790px;
 }
 
 #section_accommodation h1
@@ -238,21 +247,10 @@ ul
     padding-left: 1.4em;
 }
 
-.show_more
-{
-    padding-bottom: 1.5em;
-    padding-left: 1.6em;
-    font-weight: bold;
-}
-
-.show_more a
-{
-    text-decoration: none;
-    color: black;
-}
 .bloc_accommodation
 {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     padding: 1em;
 }
 
@@ -280,13 +278,12 @@ ul
     box-shadow: 20px 10px 90px #DEEBFF;
 }
 
-
 .accommodation_card img
 {
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
-    max-width: 100%;
-    max-height: 150px;
+    width: 200px;
+    height: 100px;
 }
 
 .accommodation_card h2
@@ -309,27 +306,84 @@ ul
     color: #F2F2F2;
 }
 
-.one
+.show_more
 {
-    grid-column: 1;
-    grid-row: 1;
+    padding-bottom: 1.5em;
+    padding-left: 1.6em;
+    font-weight: bold;
 }
 
-.two
+.show_more a
 {
-    grid-column: 2;
-    grid-row: 1;
+    text-decoration: none;
+    color: black;
 }
-
-.three
-{
-    grid-column: 3;
-    grid-row: 1;
-}
-
-
 
     
 
+/*Aside the most popular*/
+.aside_most_popular
+{
+    background-color:#F2F2F2;
+    border-radius: 12px;
+    margin-top: 2em;
+    width: 400px;
+    height: 565px;
+}
 
+.aside_head 
+{
+    padding-top: 36px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
+.bloc_accommodation_popular
+{
+    padding: 1em;
+}
+
+.accommodation_popular_card
+{
+    border: 1px white solid;
+    border-radius: 12px;
+    box-shadow: 2px 1px 8px grey;
+    background-color: white;
+    padding: 0.5em;
+    margin: 1em;
+    margin-bottom: 32px;
+    display: flex;
+}
+
+.accommodation_popular_card img
+{
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    width: 100px;
+    height: 100px;
+    padding-right: 0.9em;
+}
+
+.accommodation_popular_card h2
+{
+    font-size: 1.1em;
+}
+
+.description p
+{
+    padding-top: 0.5em;
+    padding-bottom: 1.7em;
+}
+
+.bloc_accommodation_popular a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.accommodation_popular_card a:hover
+{
+    font-style: italic;
+    box-shadow: 20px 10px 90px #DEEBFF;
+}
