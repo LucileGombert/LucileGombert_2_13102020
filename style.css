@@ -26,34 +26,40 @@ ul
     margin-bottom: 30px;
 }
 
-.nav .menu
+.menu
 {
     display: flex;
-    justify-content: flex-end;
+    
 }
 
-.nav li
+.nav_link
 {
-    padding-left: 50px;
+    padding: 30px;
 }
 
-.menu a
+.nav a
 {
     color: black;
     text-decoration: none;
 }
 
-.menu a :hover
+.nav :hover
 {
     color: #0065FC;
-    border-top: 2px solid;
+    border-top: 2px  #0065FC solid;
     padding-top: 35px;
+}
+
+.register
+{
+    padding-left: 20px;
 }
 
 .register a
 {
     color: #0065FC;
     font-weight: bold;
+    text-decoration: none;
 }
 
 
@@ -619,4 +625,66 @@ main
 .footer li
 {
     padding-bottom: 0.9em;
+}
+
+
+
+
+/*Media queries*/
+
+@media all and (max-width: 576px)
+{
+	/*Small devices*/
+    
+    body
+    {
+        padding: 20px;
+    }
+    
+    .header
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .menu
+    {
+        display: flex;
+        
+        
+        
+    }
+
+    .register
+   {
+       padding-top: 15px;
+       padding-left: 0;
+   }
+
+    .nav
+    {
+        padding-top: 40px;
+        display: flex;
+    }
+
+    .nav a
+    {
+        border-bottom: 3px solid #F2F2F2;
+    }
+
+    .nav :hover
+    {
+        border-bottom: 2px  #0065FC solid;
+        border-top: none;     
+    }
+      
+    
+   
+
+
+
+
 }
