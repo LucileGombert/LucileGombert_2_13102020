@@ -640,7 +640,8 @@ main
     {
         padding: 20px;
     }
-    
+
+    /*Header*/
     .header
     {
         display: flex;
@@ -682,9 +683,36 @@ main
     }
       
     
-   
+    /*Section search*//*Search*/
+
+    .search_button
+    {
+        border-radius: 12px;
+         
+    }
+
+    /*Section search*//*Filters*/
+    
+    .filters_div h2
+    {
+        margin-bottom: 10px;
+    }
+
+    .filter1 , .filter3
+    {
+        margin-bottom: 10px;
+    }
+
+    
+
+
+    /*Main*/
+    .aside_most_popular
+    {
+        order: 1;
+    }
 
 
 
 
-}
+}   
