@@ -239,13 +239,13 @@ main
     background-color:#F2F2F2;
     border-radius: 12px;
     margin-top: 2em;
-    width: 790px;
+    width: 750px;
 }
 
 #section_accommodation h1
 {
     padding-top: 1.5em;
-    padding-left: 1.4em;
+    padding-left: 1.5em;
 }
 
 .bloc_accommodation
@@ -253,6 +253,7 @@ main
     display: flex;
     flex-wrap: wrap;
     padding: 1em;
+    margin-left: 0.5em;
 }
 
 .accommodation_card
@@ -283,15 +284,19 @@ main
 {
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
-    width: 200px;
-    height: 100px;
+    width: 185px;
+    height: 90px;
 }
 
 .accommodation_card h2
 {
-    font-size: 1.1em;
+    font-size: 0.85em;
 }
 
+.accommodation_card p
+{
+    font-size: 0.8em;
+}
 .stars
 {
     display: flex;
@@ -310,7 +315,7 @@ main
 .show_more
 {
     padding-bottom: 1.5em;
-    padding-left: 1.6em;
+    padding-left: 1.8em;
     font-weight: bold;
 }
 
@@ -328,7 +333,7 @@ main
     background-color:#F2F2F2;
     border-radius: 12px;
     margin-top: 2em;
-    width: 400px;
+    width: 410px;
     height: 565px;
 }
 
@@ -368,13 +373,19 @@ main
 
 .accommodation_popular_card h2
 {
-    font-size: 1.1em;
+    font-size: 0.85em;
 }
 
 .description p
 {
     padding-top: 0.5em;
-    padding-bottom: 1.7em;
+    margin-bottom: 2em;
+    font-size: 0.8em;
+}
+
+.d1 p , .d3 p
+{
+    padding-bottom: 1em;
 }
 
 .bloc_accommodation_popular a
@@ -394,7 +405,7 @@ main
 /*Section activities*/
 #section_activities h1
 {
-    padding-top: 1em;
+    padding-top: 2em;
     padding-bottom: 1em;
 }
 .bloc_activities
@@ -406,24 +417,24 @@ main
 .bloc_activities img
 {
     border-radius: 12px;
-    box-shadow: 2px 1px 8px grey;
+    box-shadow: 1px 4px 6px rgb(236, 236, 236);
 }
 
 .port
 {
     position: relative;
+    margin-right: 1.5em;
 }
 .img_port
 {
-    width: 250px;
-    height: 350px;
-    margin: 1em;
+    width: 274px;
+    height: 365px;
 }
 .title_port
 {
 	position: absolute;
 	left: 0;
-	top: 300px;      
+	top: 315px;      
 	width: 100%;
 	height: 50px;
 	border-bottom-right-radius: 10px;
@@ -438,18 +449,18 @@ main
 .fort
 {
     position: relative;
+    margin: 0 1em 1em 1em;
 }
 .img_fort
 {
-    width: 250px;
-    height: 350px;
-    margin: 1em;
+    width: 275px;
+    height: 190px;
 }
 .title_fort
 {
 	position: absolute;
 	left: 0;
-	top: 300px;      
+	top: 140px;      
 	width: 100%;
 	height: 50px;
 	border-bottom-right-radius: 10px;
@@ -464,18 +475,19 @@ main
 .iles
 {
     position: relative;
+    margin: 1em 1em 0 1em;
+    padding-top: 0.5em;
 }
 .img_iles
 {
-    width: 250px;
-    height: 350px;
-    margin: 1em;
+    width: 275px;
+    height: 145px;
 }
 .title_iles
 {
 	position: absolute;
 	left: 0;
-	top: 300px;      
+	top: 103px;      
 	width: 100%;
 	height: 50px;
 	border-bottom-right-radius: 10px;
@@ -490,18 +502,18 @@ main
 .calanques
 {
     position: relative;
+    margin: 0 1em 1em 1em;
 }
 .img_calanques
 {
-    width: 250px;
-    height: 350px;
-    margin: 1em;
+    width: 275px;
+    height: 365px;
 }
 .title_calanques
 {
 	position: absolute;
 	left: 0;
-	top: 300px;      
+	top: 315px;      
 	width: 100%;
 	height: 50px;
 	border-bottom-right-radius: 10px;
@@ -516,18 +528,19 @@ main
 .notre_dame
 {
     position: relative;
+    margin: 0 1em 1em 1em;
 }
 .img_notre_dame
 {
-    width: 250px;
-    height: 350px;
-    margin: 1em;
+    width: 255px;
+    height: 155px;
+    
 }
 .title_notre_dame
 {
 	position: absolute;
 	left: 0;
-	top: 300px;      
+	top: 105px;      
 	width: 100%;
 	height: 50px;
 	border-bottom-right-radius: 10px;
@@ -539,21 +552,23 @@ main
     align-items: center;
 }
 
+
 .parc
 {
     position: relative;
+    margin: 1em 1em 0 1em;
+    padding-top: 1em;
 }
 .img_parc
 {
-    width: 250px;
-    height: 350px;
-    margin: 1em;
+    width: 255px;
+    height: 175px;
 }
 .title_parc
 {
 	position: absolute;
 	left: 0;
-	top: 300px;      
+	top: 141px;      
 	width: 100%;
 	height: 50px;
 	border-bottom-right-radius: 10px;
