@@ -115,6 +115,11 @@ ul
     margin-top: 2em;
 }
 
+.filters_div h2
+{
+    font-size: large;
+}
+
 .all_filters
 {
     display: flex;
@@ -408,6 +413,7 @@ main
     padding-top: 2em;
     padding-bottom: 1em;
 }
+
 .bloc_activities
 {
     display: flex;
@@ -418,6 +424,11 @@ main
 {
     border-radius: 12px;
     box-shadow: 1px 4px 6px rgb(236, 236, 236);
+}
+
+.bloc_activities p
+{
+    font-size: 0.9em;
 }
 
 .port
@@ -552,7 +563,6 @@ main
     align-items: center;
 }
 
-
 .parc
 {
     position: relative;
@@ -578,4 +588,35 @@ main
     font-weight: bold;
 	display: flex;
     align-items: center;
+}
+
+
+
+/*Footer*/
+.footer
+{
+    background-color:#F2F2F2;
+    width: 100%;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    margin-left: -2.5em;
+    padding: 2em;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.part_footer
+{
+    padding-right: 13em;
+}
+
+.footer h3
+{
+    font-size: 1em;
+    padding-bottom: 1em;
+}
+
+.footer li
+{
+    padding-bottom: 0.9em;
 }
