@@ -12,14 +12,15 @@
     <body>
         <header class="header">
             <img src="images/logo/Reservia.svg" alt="" class="title">
-                
-            <nav class="nav">
-                <ul class="menu">
-                    <li><a href="#section_accommodation"><span> Hébergements </span></a></li>
-                    <li><a href="#section_activities"><span> Activités </span></a></li>
-                    <li class="register"><a href="#"> S'inscrire </a></li>
-                </ul>
-            </nav>
+            <div class="menu">
+                <nav class="nav">
+                    <a class="nav_link" href="#section_accommodation"> Hébergements</a>
+                    <a class="nav_link" href="#section_activities"> Activités</a>
+                </nav>
+                <div class="register">
+                    <a href="#"> S'inscrire </a>
+                </div>
+            </div>   
         </header>
         
         <section class="search_section">
@@ -30,6 +31,7 @@
                 <i class="fas fa-map-marker-alt" id="ico_map"></i>
                 <input class="search_line" type="search" name="search" placeholder="Marseille, France" size="1">
                 <input class="search_button" type="button" value="Rechercher">
+                <i class="fas fa-search search_icon"></i>
             </form>
 
             <div class="filters_div">
@@ -79,7 +81,7 @@
             </div>    
         </section>
 
-        <main>
+        <main class="main">
             <section id="section_accommodation">
                 <h1>Hébergements à Marseille</h1>
                 <div class="bloc_accommodation">
@@ -230,14 +232,14 @@
                     </div>
     
                     <div class="two_activities">
-                        <div class="fort">
+                        <div class="fort activity">
                             <img src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="" class="img_fort">
                             <div class="title_fort">
                                 <p>Fort de Pomègues</p>
                             </div>
                         </div>
                     
-                        <div class="iles">
+                        <div class="iles activity">
                             <img src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="" class="img_iles">
                             <div class="title_iles">
                                 <p>Iles du Frioul</p>
@@ -245,7 +247,7 @@
                         </div>
                     </div>
 
-                    <div class="calanques">
+                    <div class="calanques activity">
                         <img src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="" class="img_calanques">
                         <div class="title_calanques">
                             <p>Parc National des Calanques</p>
@@ -253,14 +255,18 @@
                     </div>
 
                     <div class="two_activities">
-                        <div class="notre_dame">
+                        <div class="notre_dame activity">
                             <img src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="" class="img_notre_dame">
                             <div class="title_notre_dame">
                                 <p>Notre-Dame-de-la-Garde</p>
                             </div>
                         </div>
         
+<<<<<<< HEAD
                         <div class="parc">
+=======
+                        <div class="parc activity">
+>>>>>>> mediaqueries
                             <img src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="" class="img_parc">
                             <div class="title_parc">
                                 <p>Parc Longchamp</p>

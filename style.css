@@ -26,34 +26,40 @@ ul
     margin-bottom: 30px;
 }
 
-.nav .menu
+.menu
 {
     display: flex;
-    justify-content: flex-end;
+    
 }
 
-.nav li
+.nav_link
 {
-    padding-left: 50px;
+    padding: 30px;
 }
 
-.menu a
+.nav a
 {
     color: black;
     text-decoration: none;
 }
 
-.menu a :hover
+.nav :hover
 {
     color: #0065FC;
-    border-top: 2px solid;
+    border-top: 2px  #0065FC solid;
     padding-top: 35px;
+}
+
+.register
+{
+    padding-left: 20px;
 }
 
 .register a
 {
     color: #0065FC;
     font-weight: bold;
+    text-decoration: none;
 }
 
 
@@ -265,7 +271,7 @@ main
 {
     border: 1px white solid;
     border-radius: 12px;
-    box-shadow: 2px 1px 8px grey;
+    box-shadow: 2px 1px 10px #afaeae;
     background-color: white;
     padding: 0.5em;
     margin: 1em;
@@ -314,7 +320,7 @@ main
 
 .grey_stars
 {
-    color: #F2F2F2;
+    color: rgba(168, 161, 163, 0.329);
 }
 
 .show_more
@@ -359,7 +365,7 @@ main
 {
     border: 1px white solid;
     border-radius: 12px;
-    box-shadow: 2px 1px 8px grey;
+    box-shadow: 2px 1px 10px #afaeae;
     background-color: white;
     padding: 0.5em;
     margin: 1em;
@@ -434,161 +440,164 @@ main
 .port
 {
     position: relative;
-    margin-right: 1.5em;
 }
 .img_port
 {
-    width: 274px;
+    width: 275px;
     height: 365px;
+    position: relative;
 }
 .title_port
 {
-	position: absolute;
-	left: 0;
-	top: 315px;      
-	width: 100%;
-	height: 50px;
-	border-bottom-right-radius: 10px;
-	border-bottom-left-radius: 10px;
-	background:white;
-   	color: black;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: white;
     font-weight: bold;
-	display: flex;
+    display: flex;
     align-items: center;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    box-shadow: 1px 4px 6px rgb(236, 236, 236);
 }
 
 .fort
 {
     position: relative;
-    margin: 0 1em 1em 1em;
+    margin: 0em 1.5em 1.5em 1.5em;
 }
 .img_fort
 {
     width: 275px;
     height: 190px;
+    position: relative;
 }
 .title_fort
 {
-	position: absolute;
-	left: 0;
-	top: 140px;      
-	width: 100%;
-	height: 50px;
-	border-bottom-right-radius: 10px;
-	border-bottom-left-radius: 10px;
-	background:white;
-   	color: black;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: white;
     font-weight: bold;
-	display: flex;
+    display: flex;
     align-items: center;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    box-shadow: 1px 4px 6px rgb(236, 236, 236);
 }
 
 .iles
 {
     position: relative;
-    margin: 1em 1em 0 1em;
-    padding-top: 0.5em;
+    margin: 1.5em 1.5em 0 1.5em;
 }
 .img_iles
 {
     width: 275px;
     height: 145px;
+    position: relative;
 }
 .title_iles
 {
-	position: absolute;
-	left: 0;
-	top: 103px;      
-	width: 100%;
-	height: 50px;
-	border-bottom-right-radius: 10px;
-	border-bottom-left-radius: 10px;
-	background:white;
-   	color: black;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: white;
     font-weight: bold;
-	display: flex;
+    display: flex;
     align-items: center;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    box-shadow: 1px 4px 6px rgb(236, 236, 236);
 }
 
 .calanques
 {
     position: relative;
-    margin: 0 1em 1em 1em;
 }
 .img_calanques
 {
     width: 275px;
     height: 365px;
+    position: relative;
 }
 .title_calanques
 {
-	position: absolute;
-	left: 0;
-	top: 315px;      
-	width: 100%;
-	height: 50px;
-	border-bottom-right-radius: 10px;
-	border-bottom-left-radius: 10px;
-	background:white;
-   	color: black;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: white;
     font-weight: bold;
-	display: flex;
+    display: flex;
     align-items: center;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    box-shadow: 1px 4px 6px rgb(236, 236, 236);
 }
 
 .notre_dame
 {
     position: relative;
-    margin: 0 1em 1em 1em;
+    margin: 0em 1.5em 1.5em 1.5em;
+
 }
 .img_notre_dame
 {
     width: 255px;
     height: 155px;
-    
+    position: relative;
 }
 .title_notre_dame
 {
-	position: absolute;
-	left: 0;
-	top: 105px;      
-	width: 100%;
-	height: 50px;
-	border-bottom-right-radius: 10px;
-	border-bottom-left-radius: 10px;
-	background:white;
-   	color: black;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: white;
     font-weight: bold;
-	display: flex;
+    display: flex;
     align-items: center;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    box-shadow: 1px 4px 6px rgb(236, 236, 236);
 }
 
 .parc
 {
     position: relative;
-    margin: 1em 1em 0 1em;
-    padding-top: 1em;
+    margin: 1.5em 1.5em 0 1.5em;
 }
 .img_parc
 {
     width: 255px;
-    height: 175px;
+    height: 180px;
+    position: relative;
 }
 .title_parc
 {
-	position: absolute;
-	left: 0;
-	top: 141px;      
-	width: 100%;
-	height: 50px;
-	border-bottom-right-radius: 10px;
-	border-bottom-left-radius: 10px;
-	background:white;
-   	color: black;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: white;
     font-weight: bold;
-	display: flex;
+    display: flex;
     align-items: center;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    box-shadow: 1px 4px 6px rgb(236, 236, 236);
 }
+
 
 
 
@@ -619,4 +628,247 @@ main
 .footer li
 {
     padding-bottom: 0.9em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Media queries*/
+
+@media all and (max-width: 576px)
+{
+	/*Small devices*/
+    
+    /*Header*/
+    .header
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin: 20px;
+    }
+
+    .menu
+    {
+        display: flex;
+    }
+
+    .register
+   {
+       padding-top: 15px;
+       padding-left: 0;
+   }
+
+    .nav
+    {
+        padding-top: 40px;
+        display: flex;
+    }
+
+    .nav a
+    {
+        border-bottom: 3px solid #F2F2F2;
+    }
+
+    .nav :hover
+    {
+        border-bottom: 2px  #0065FC solid;
+        border-top: none;     
+    }
+      
+    
+    /*Section search*/
+    .search_section
+    {
+        margin: 30px;
+    }
+
+        /*Section search*//*Search*/
+    .search_button
+    {
+        border-radius: 12px;
+         
+    }
+
+        /*Section search*//*Filters*/
+    .filters_div h2
+    {
+        margin-left: 25px;
+        margin-bottom: 10px;
+    }
+
+    .filter1 , .filter3
+    {
+        margin-bottom: 10px;
+    }
+
+    .info_div
+    {
+        margin-left: 25px;
+    }
+    /*Main*/
+    main
+    {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .section_accommodation:nth-child(1)
+    {
+        order: 2;
+    }
+
+    .aside_most_popular:nth-child(2)
+    {
+        order: 1;
+    }
+
+    .section_activities:nth-child(3)
+    {
+        order: 3;
+    }
+
+    /*Section aside most popular*/
+    .aside_most_popular
+    {
+        border-radius: 0px;
+        width: 500px;
+        height: 620px;
+    }
+
+    .accommodation_popular_card
+    {
+        padding: 0.5em;
+        margin: 1em;
+    }
+
+    .accommodation_popular_card img
+    {
+        width: 130px;
+        height: 130px;
+        padding-right: 0.9em;
+    }
+
+    .description p
+    {
+        padding-top: 0.5em;
+        margin-bottom: 3em;
+        font-size: 0.8em;
+    }
+    
+    /*Section accommodation*/
+    #section_accommodation
+    {
+        background-color: white;
+        margin-top: 2em;
+        margin: 30px;
+        width: 750px;
+    }
+   
+    #section_accommodation h1
+    {
+        padding: 48px 0 24px;
+    }
+    .bloc_accommodation
+    {
+        margin: 0;
+        padding: 0;
+    }
+
+    .accommodation_card
+    {
+        margin: 1.5em 0 0 0;
+    }
+    
+    .accommodation_card img
+    {
+        width: 400px;
+        height: 150px;
+    }
+
+    .show_more
+    {
+        padding: 1.5em 0 0 0;
+        font-weight: bold;
+    }
+
+    /*Section activities*/
+    #section_activities
+    {
+        margin: 30px;
+    }
+
+    .bloc_activities img
+    {
+        width: 400px;
+        height: 200px;
+        position: relative;
+    }
+
+    .port
+    {
+        position: relative;
+        margin: 1.5em 0 0 0;
+    }
+    
+    .fort
+    {
+        position: relative;
+        margin: 1.5em 0 1.5em 0;
+    }
+    
+    .iles
+    {
+        position: relative;
+        margin: 1.5em 0 0 0;
+    }
+    
+    .calanques
+    {
+        position: relative;
+        margin: 1.5em 0 0 0;
+    }
+    
+    .notre_dame
+    {
+        position: relative;
+        margin: 1.5em 0 1.5em 0;
+    }
+
+    .parc
+    {
+        position: relative;
+        margin: 1.5em 0 1.5em 0;
+    }
+    
+    /*Footer*/
+    .footer
+    {
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer h3
+    {
+        padding-top: 1em;
+    }
+
+    .footer li
+    {
+        padding-bottom: 0.5em;
+    }
+    
+    
+
 }
