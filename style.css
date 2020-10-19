@@ -271,7 +271,7 @@ main
 {
     border: 1px white solid;
     border-radius: 12px;
-    box-shadow: 2px 1px 8px grey;
+    box-shadow: 2px 1px 10px #afaeae;
     background-color: white;
     padding: 0.5em;
     margin: 1em;
@@ -320,7 +320,7 @@ main
 
 .grey_stars
 {
-    color: #F2F2F2;
+    color: rgba(168, 161, 163, 0.329);
 }
 
 .show_more
@@ -365,7 +365,7 @@ main
 {
     border: 1px white solid;
     border-radius: 12px;
-    box-shadow: 2px 1px 8px grey;
+    box-shadow: 2px 1px 10px #afaeae;
     background-color: white;
     padding: 0.5em;
     margin: 1em;
@@ -639,19 +639,13 @@ main
 {
 	/*Small devices*/
     
-    body
-    {
-        padding: 20px;
-    }
-
     /*Header*/
     .header
     {
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
-        
-        margin: auto;
+        margin: 20px;
     }
 
     .menu
@@ -683,16 +677,23 @@ main
     }
       
     
-    /*Section search*//*Search*/
+    /*Section search*/
+    .search_section
+    {
+        margin: 30px;
+    }
+
+        /*Section search*//*Search*/
     .search_button
     {
         border-radius: 12px;
          
     }
 
-    /*Section search*//*Filters*/
+        /*Section search*//*Filters*/
     .filters_div h2
     {
+        margin-left: 25px;
         margin-bottom: 10px;
     }
 
@@ -701,10 +702,16 @@ main
         margin-bottom: 10px;
     }
 
+    .info_div
+    {
+        margin-left: 25px;
+    }
     /*Main*/
-    .main
+    main
     {
         display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
     }
 
     .section_accommodation:nth-child(1)
@@ -722,11 +729,40 @@ main
         order: 3;
     }
 
+    /*Section aside most popular*/
+    .aside_most_popular
+    {
+        border-radius: 0px;
+        width: 500px;
+        height: 620px;
+    }
+
+    .accommodation_popular_card
+    {
+        padding: 0.5em;
+        margin: 1em;
+    }
+
+    .accommodation_popular_card img
+    {
+        width: 130px;
+        height: 130px;
+        padding-right: 0.9em;
+    }
+
+    .description p
+    {
+        padding-top: 0.5em;
+        margin-bottom: 3em;
+        font-size: 0.8em;
+    }
+    
     /*Section accommodation*/
     #section_accommodation
     {
         background-color: white;
         margin-top: 2em;
+        margin: 30px;
         width: 750px;
     }
    
@@ -758,6 +794,11 @@ main
     }
 
     /*Section activities*/
+    #section_activities
+    {
+        margin: 30px;
+    }
+
     .bloc_activities img
     {
         width: 400px;
