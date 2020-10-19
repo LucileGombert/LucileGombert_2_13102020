@@ -654,7 +654,7 @@ main
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
-        margin: 20px;
+        margin: 0px;
     }
 
     .menu
@@ -700,9 +700,16 @@ main
     }
 
         /*Section search*//*Filters*/
+    .filters_div
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    
     .filters_div h2
     {
-        margin-left: 25px;
+        margin-left: 5px;
         margin-bottom: 10px;
     }
 
@@ -713,7 +720,7 @@ main
 
     .info_div
     {
-        margin-left: 25px;
+        margin-left: 5px;
     }
     /*Main*/
     main
@@ -754,8 +761,8 @@ main
 
     .accommodation_popular_card img
     {
-        width: 130px;
-        height: 130px;
+        width: 150px;
+        height: 150px;
         padding-right: 0.9em;
     }
 
@@ -772,13 +779,13 @@ main
         background-color: white;
         margin-top: 2em;
         margin: 30px;
-        width: 750px;
     }
    
     #section_accommodation h1
     {
         padding: 48px 0 24px;
     }
+
     .bloc_accommodation
     {
         margin: 0;
@@ -792,7 +799,7 @@ main
     
     .accommodation_card img
     {
-        width: 400px;
+        width: 350px;
         height: 150px;
     }
 
@@ -810,7 +817,7 @@ main
 
     .bloc_activities img
     {
-        width: 400px;
+        width: 350px;
         height: 200px;
         position: relative;
     }
