@@ -29,7 +29,6 @@ ul
 .menu
 {
     display: flex;
-    
 }
 
 .nav_link
@@ -81,8 +80,8 @@ ul
 #ico_map
 {
     border: 1px #F2F2F2 solid;
-    border-bottom-left-radius: 12px;
-    border-top-left-radius: 12px;
+    border-bottom-left-radius: 16px;
+    border-top-left-radius: 16px;
     background-color: #F2F2F2;
     padding: 0.8em;
 }
@@ -101,9 +100,9 @@ ul
 
 .search_button
 {
+    border-bottom-right-radius: 16px;
+    border-top-right-radius: 16px;
     border: 1px #0065FC solid;
-    border-bottom-right-radius: 12px;
-    border-top-right-radius: 12px;
     background-color: #0065FC;
     padding: 0.8em;
     color: white;
@@ -111,6 +110,13 @@ ul
     font-size: 1em;
     cursor: pointer;
 }
+
+.search_button i
+{
+    display: none;
+}
+
+
 
 /*Section search*//*Filters*/
 .filters_div
@@ -267,6 +273,17 @@ main
     margin-left: 0.5em;
 }
 
+.bloc_accommodation a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.bloc_accommodation :hover
+{
+    font-style: italic;
+}
+
 .accommodation_card
 {
     border: 1px white solid;
@@ -279,24 +296,13 @@ main
     flex-direction: column;
 }
 
-.bloc_accommodation a
-{
-    text-decoration: none;
-    color: black;
-}
-
-.accommodation_card a:hover
-{
-    font-style: italic;
-    box-shadow: 20px 10px 90px #DEEBFF;
-}
-
 .accommodation_card img
 {
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
     width: 185px;
     height: 90px;
+    object-fit: cover;
 }
 
 .accommodation_card h2
@@ -308,6 +314,7 @@ main
 {
     font-size: 0.8em;
 }
+
 .stars
 {
     display: flex;
@@ -361,6 +368,11 @@ main
     padding: 1em;
 }
 
+.bloc_accommodation_popular :hover
+{
+    font-style: italic;
+}
+
 .accommodation_popular_card
 {
     border: 1px white solid;
@@ -379,6 +391,7 @@ main
     border-bottom-left-radius: 12px;
     width: 100px;
     height: 100px;
+    object-fit: cover;
     padding-right: 0.9em;
 }
 
@@ -426,6 +439,15 @@ main
     flex-wrap: wrap;   
 }
 
+.bloc_activities a
+{
+    color: black;
+}
+
+.bloc_activities :hover
+{
+    font-style: italic;
+}
 .bloc_activities img
 {
     border-radius: 12px;
@@ -434,6 +456,7 @@ main
 
 .bloc_activities p
 {
+    padding: 1em;
     font-size: 0.9em;
 }
 
@@ -445,6 +468,7 @@ main
 {
     width: 275px;
     height: 365px;
+    object-fit: cover; 
     position: relative;
 }
 .title_port
@@ -472,6 +496,7 @@ main
 {
     width: 275px;
     height: 190px;
+    object-fit: cover; 
     position: relative;
 }
 .title_fort
@@ -499,6 +524,7 @@ main
 {
     width: 275px;
     height: 145px;
+    object-fit: cover;
     position: relative;
 }
 .title_iles
@@ -525,6 +551,7 @@ main
 {
     width: 275px;
     height: 365px;
+    object-fit: cover;
     position: relative;
 }
 .title_calanques
@@ -553,6 +580,7 @@ main
 {
     width: 255px;
     height: 155px;
+    object-fit: cover;
     position: relative;
 }
 .title_notre_dame
@@ -580,6 +608,7 @@ main
 {
     width: 255px;
     height: 180px;
+    object-fit: cover;
     position: relative;
 }
 .title_parc
@@ -651,10 +680,9 @@ main
     /*Header*/
     .header
     {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
-        margin: 0px;
+        display: inline-block;
+        
+        
     }
 
     .menu
@@ -684,7 +712,11 @@ main
         border-bottom: 2px  #0065FC solid;
         border-top: none;     
     }
-      
+    
+    .nav_link
+    {
+        width: 50%;
+    }
     
     /*Section search*/
     .search_section
@@ -695,15 +727,24 @@ main
         /*Section search*//*Search*/
     .search_button
     {
-        border-radius: 12px;
-         
+        border-radius: 16px;
+    }
+
+    .rechercher
+    {
+        display: none;
+    }
+
+    .search_button i
+    {
+        display: inline;
     }
 
         /*Section search*//*Filters*/
     .filters_div
     {
         display: flex;
-        flex-direction: column;
+        
         justify-content: flex-start;
     }
     
@@ -722,6 +763,7 @@ main
     {
         margin-left: 5px;
     }
+
     /*Main*/
     main
     {
@@ -750,7 +792,7 @@ main
     {
         border-radius: 0px;
         width: 500px;
-        height: 620px;
+        height: 670px;
     }
 
     .accommodation_popular_card
@@ -864,6 +906,11 @@ main
         margin-left: 0;
         display: flex;
         flex-direction: column;
+    }
+
+    .part_footer
+    {
+        padding-right: 0;
     }
 
     .footer h3
