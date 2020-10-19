@@ -440,161 +440,164 @@ main
 .port
 {
     position: relative;
-    margin-right: 1.5em;
 }
 .img_port
 {
-    width: 274px;
+    width: 275px;
     height: 365px;
+    position: relative;
 }
 .title_port
 {
-	position: absolute;
-	left: 0;
-	top: 315px;      
-	width: 100%;
-	height: 50px;
-	border-bottom-right-radius: 10px;
-	border-bottom-left-radius: 10px;
-	background:white;
-   	color: black;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: white;
     font-weight: bold;
-	display: flex;
+    display: flex;
     align-items: center;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    box-shadow: 1px 4px 6px rgb(236, 236, 236);
 }
 
 .fort
 {
     position: relative;
-    margin: 0 1em 1em 1em;
+    margin: 0em 1.5em 1.5em 1.5em;
 }
 .img_fort
 {
     width: 275px;
     height: 190px;
+    position: relative;
 }
 .title_fort
 {
-	position: absolute;
-	left: 0;
-	top: 140px;      
-	width: 100%;
-	height: 50px;
-	border-bottom-right-radius: 10px;
-	border-bottom-left-radius: 10px;
-	background:white;
-   	color: black;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: white;
     font-weight: bold;
-	display: flex;
+    display: flex;
     align-items: center;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    box-shadow: 1px 4px 6px rgb(236, 236, 236);
 }
 
 .iles
 {
     position: relative;
-    margin: 1em 1em 0 1em;
-    padding-top: 0.5em;
+    margin: 1.5em 1.5em 0 1.5em;
 }
 .img_iles
 {
     width: 275px;
     height: 145px;
+    position: relative;
 }
 .title_iles
 {
-	position: absolute;
-	left: 0;
-	top: 103px;      
-	width: 100%;
-	height: 50px;
-	border-bottom-right-radius: 10px;
-	border-bottom-left-radius: 10px;
-	background:white;
-   	color: black;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: white;
     font-weight: bold;
-	display: flex;
+    display: flex;
     align-items: center;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    box-shadow: 1px 4px 6px rgb(236, 236, 236);
 }
 
 .calanques
 {
     position: relative;
-    margin: 0 1em 1em 1em;
 }
 .img_calanques
 {
     width: 275px;
     height: 365px;
+    position: relative;
 }
 .title_calanques
 {
-	position: absolute;
-	left: 0;
-	top: 315px;      
-	width: 100%;
-	height: 50px;
-	border-bottom-right-radius: 10px;
-	border-bottom-left-radius: 10px;
-	background:white;
-   	color: black;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: white;
     font-weight: bold;
-	display: flex;
+    display: flex;
     align-items: center;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    box-shadow: 1px 4px 6px rgb(236, 236, 236);
 }
 
 .notre_dame
 {
     position: relative;
-    margin: 0 1em 1em 1em;
+    margin: 0em 1.5em 1.5em 1.5em;
+
 }
 .img_notre_dame
 {
     width: 255px;
     height: 155px;
-    
+    position: relative;
 }
 .title_notre_dame
 {
-	position: absolute;
-	left: 0;
-	top: 105px;      
-	width: 100%;
-	height: 50px;
-	border-bottom-right-radius: 10px;
-	border-bottom-left-radius: 10px;
-	background:white;
-   	color: black;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: white;
     font-weight: bold;
-	display: flex;
+    display: flex;
     align-items: center;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    box-shadow: 1px 4px 6px rgb(236, 236, 236);
 }
 
 .parc
 {
     position: relative;
-    margin: 1em 1em 0 1em;
-    padding-top: 1em;
+    margin: 1.5em 1.5em 0 1.5em;
 }
 .img_parc
 {
     width: 255px;
-    height: 175px;
+    height: 180px;
+    position: relative;
 }
 .title_parc
 {
-	position: absolute;
-	left: 0;
-	top: 141px;      
-	width: 100%;
-	height: 50px;
-	border-bottom-right-radius: 10px;
-	border-bottom-left-radius: 10px;
-	background:white;
-   	color: black;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: white;
     font-weight: bold;
-	display: flex;
+    display: flex;
     align-items: center;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    box-shadow: 1px 4px 6px rgb(236, 236, 236);
 }
+
 
 
 
@@ -654,9 +657,6 @@ main
     .menu
     {
         display: flex;
-        
-        
-        
     }
 
     .register
@@ -684,7 +684,6 @@ main
       
     
     /*Section search*//*Search*/
-
     .search_button
     {
         border-radius: 12px;
@@ -692,7 +691,6 @@ main
     }
 
     /*Section search*//*Filters*/
-    
     .filters_div h2
     {
         margin-bottom: 10px;
@@ -703,16 +701,101 @@ main
         margin-bottom: 10px;
     }
 
-    
-
-
     /*Main*/
-    .aside_most_popular
+    .main
+    {
+        display: flex;
+    }
+
+    .section_accommodation:nth-child(1)
+    {
+        order: 2;
+    }
+
+    .aside_most_popular:nth-child(2)
     {
         order: 1;
     }
 
+    .section_activities:nth-child(3)
+    {
+        order: 3;
+    }
+
+    /*Section accommodation*/
+    #section_accommodation
+    {
+        background-color: white;
+        
+        margin-top: 2em;
+        width: 750px;
+    }
+   
+    .bloc_accommodation
+    {
+        
+        margin-left: 0;
+    }
+
+    .accommodation_card img
+    {
+        width: 400px;
+        height: 150px;
+    }
+
+    /*Section activities*/
+    .bloc_activities img
+    {
+        width: 400px;
+        height: 200px;
+        position: relative;
+    }
+
+    .port
+    {
+        position: relative;
+        margin: 1.5em 0 0 0;
+    }
+    
+    .fort
+    {
+        position: relative;
+        margin: 1.5em 0 1.5em 0;
+    }
+    
+    .iles
+    {
+        position: relative;
+        margin: 1.5em 0 0 0;
+    }
+    
+    .calanques
+    {
+        position: relative;
+        margin: 1.5em 0 0 0;
+    }
+    
+    .notre_dame
+    {
+        position: relative;
+        margin: 1.5em 0 1.5em 0;
+    }
+
+    .parc
+    {
+        position: relative;
+        margin: 1.5em 0 1.5em 0;
+    }
+    
+
+    
+    
 
 
 
-}   
+
+
+
+
+
+}
