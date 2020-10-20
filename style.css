@@ -363,16 +363,11 @@ ul
     font-size: 0.85em;
 }
 
-.description p
+.description
 {
-    padding-top: 0.5em;
-    margin-bottom: 2em;
-    font-size: 0.8em;
-}
-
-.d1 p , .d3 p
-{
-    padding-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 
@@ -485,7 +480,6 @@ ul
     justify-content: space-between;
 }
 
-
 .footer_element h3
 {
     font-size: 1em;
@@ -508,9 +502,64 @@ ul
 
 @media all and (max-width: 1200px)
 {
-    .footer_bloc
+    main
+    {
+        max-width: 1100px;
+        margin: auto; 
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    #section_lodging
     {
         width: 100%;
+    }
+
+    .lodging_card img
+    {
+        width: 300px;
+        height: 110px;
+    }
+
+    .section_aside
+    {
+        width: 100%;
+    }
+
+    .aside_head 
+    {
+        padding: 36px 32px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .aside_bloc
+    {
+        display: flex;
+    }
+
+    .aside_card
+    {
+        width: 305px;
+    }
+
+    .aside_card img
+    {
+        width: 150px;
+        height: 150px;
+    }
+
+    .activity_big img , .activity_medium img , .activity_little img
+    {
+        width: 255px;
+    }
+
+    .footer_bloc
+    {
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
     }
 }
 
@@ -524,7 +573,7 @@ ul
 
 @media all and (max-width: 1160px)
 {
-    #section_accommodation
+    #section_lodging
     {
         width: 100%;
     }
