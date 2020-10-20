@@ -436,7 +436,7 @@ main
 .bloc_activities
 {
     display: flex;
-    flex-wrap: wrap;   
+    flex-wrap: wrap; 
 }
 
 .bloc_activities a
@@ -578,7 +578,7 @@ main
 }
 .img_notre_dame
 {
-    width: 255px;
+    width: 275px;
     height: 155px;
     object-fit: cover;
     position: relative;
@@ -606,7 +606,7 @@ main
 }
 .img_parc
 {
-    width: 255px;
+    width: 275px;
     height: 180px;
     object-fit: cover;
     position: relative;
@@ -680,9 +680,10 @@ main
     /*Header*/
     .header
     {
-        display: inline-block;
-        
-        
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin: 0px;
     }
 
     .menu
@@ -713,10 +714,7 @@ main
         border-top: none;     
     }
     
-    .nav_link
-    {
-        width: 50%;
-    }
+
     
     /*Section search*/
     .search_section
@@ -926,3 +924,5 @@ main
     
 
 }
+
+
