@@ -26,8 +26,7 @@ a {
 .section_header {
     display: flex;
     align-items: center;
-    margin: 30px;
-    margin-bottom: 30px;
+    margin: 30px 0 30px 0;
     width: 100%;
 }
 
@@ -289,6 +288,7 @@ a {
     justify-content: space-between;
 }
 
+/* ********** Activity ********** */
 .activity {
     display: grid;
     column-gap: 2rem;
@@ -298,7 +298,7 @@ a {
 
 .activity_title {
     grid-column: 1/-1;
-    /* padding-bottom: 30px; */
+    padding-bottom: 30px;
 }
 
 .activity_card {
@@ -308,10 +308,6 @@ a {
     display: flex;
     flex-direction: column;
     transition-duration: 0.1s;
-}
-
-.activity_card:hover {
-    transform: scale(1.01);
 }
 
 .activity_card_img {
@@ -329,41 +325,6 @@ a {
 .activity_card_title {
     margin: 1.2rem 1.5rem;
     font-size: 1em;
-}
-
-.activity {
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: auto 14rem 2rem 2rem 2rem 14rem;
-}
-
-.activity_card1 {
-    grid-row: 2/7;
-    grid-column: 1/2;
-}
-
-.activity_card2 {
-    grid-column: 2/3;
-    grid-row: 2/5;
-}
-
-.activity_card3 {
-    grid-column: 2/3;
-    grid-row: 6/7;
-}
-
-.activity_card4 {
-    grid-column: 3/4;
-    grid-row: 2/7;
-}
-
-.activity_card5 {
-    grid-column: 4/5;
-    grid-row: 2/3;
-}
-
-.activity_card6 {
-    grid-column: 4/5;
-    grid-row: 4/7;
 }
 
 /* ********** Footer ********** */
@@ -468,9 +429,6 @@ a {
 {
     main {
         max-width: 1080px;
-        /* display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap; */
     }
     
     .aside_card {
@@ -484,37 +442,58 @@ a {
     .aside_card h2 {
         font-size: 1em;
     }
-    
-    /* .activity_card {
-        width: 230px;
-    } */
 } 
+
+@media all and (min-width: 1100px)
+{
+    
+    .activity {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: auto 14rem 2rem 2rem 2rem 14rem;
+    }
+
+    .activity_card1 {
+        grid-row: 2/7;
+        grid-column: 1/2;
+    }
+
+    .activity_card2 {
+        grid-column: 2/3;
+        grid-row: 2/5;
+    }
+
+    .activity_card3 {
+        grid-column: 2/3;
+        grid-row: 6/7;
+    }
+
+    .activity_card4 {
+        grid-column: 3/4;
+        grid-row: 2/7;
+    }
+
+    .activity_card5 {
+        grid-column: 4/5;
+        grid-row: 2/3;
+    }
+
+    .activity_card6 {
+        grid-column: 4/5;
+        grid-row: 4/7;
+    }
+}
 
 @media all and (max-width: 1100px)
 {
     main {
         max-width: 990px;
     }
+    
     .activity {
         row-gap: 2rem;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: auto 12rem 12rem;
-      }
-}
-
-@media all and (max-width: 1090px)
-{
-    main {
-        max-width: 980px;
     }
-
-    /* .activity_card {
-        max-width: 200px;
-    }
-
-    .activity_card h2 {
-        font-size: 0.7em;
-    } */
 }
 
 @media all and (max-width: 990px)
@@ -530,18 +509,6 @@ a {
     .filter {
         margin-top: 10px;
     }
-
-    /* .activity_2blocs {
-        display: flex;
-    }
-
-    .activity_card {
-        max-width: 260px;
-    }
-
-    .activity_card img {
-        height: 150px;
-    } */
 }
 
 @media all and (max-width: 900px)
@@ -549,14 +516,6 @@ a {
     main {
         max-width: 790px;
     }
-
-    /* .div_filters h2 {
-        margin: 0 24px 50px 0;
-    }
-
-    .filter {
-        margin-top: 10px;
-    } */
 
     .aside_bloc {
         display: flex;
@@ -572,12 +531,9 @@ a {
         max-width: 240px;
     }
 
-    .activity_card {
-        width: 230px;
-    }
-
-    .activity_card img {
-        height: 110px;
+    .activity {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto 12rem 12rem 12rem;
     }
 }
 
@@ -604,14 +560,6 @@ a {
     .aside_card img {
         width: 220px;
     }
-    
-    .activity_card {
-        width: 195px;
-    }
-
-    .activity_card img {
-        height: 90px;
-    }
 }
 
 @media all and (max-width: 700px)
@@ -624,24 +572,6 @@ a {
         width: 210px;
     }
     
-    .activity_2blocs {
-        display: flex;
-        flex-wrap: wrap;   
-    }
-
-    .activity_card {
-        width: 570px;
-    }
-
-    .activity_card img {
-        max-width: 570px;
-        height: 150px;
-    }
-
-    .activity_card h2 {
-        font-size: 0.85em;
-    }
-
     .footer_bloc {
         display: flex;
         flex-direction: column;
@@ -727,13 +657,9 @@ a {
         max-width: 180px;
     }
     
-    .activity_card {
-        max-width: 470px;
-    }
-
-    .activity_card img {
-        max-width: 470px;
-        height: 150px;
+    .activity {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 12rem 12rem 12rem 12rem 12rem 12rem;
     }
 
     .footer_bloc {
@@ -802,59 +728,10 @@ a {
         max-width: 150px;
         height: 150px;
     }
-
-    .activities_blocs {
-        margin-left: 20px;
-    }
-
-    .activity_card {
-        max-width: 415px;
+    .activity {
+        margin: 30px 30px 0 30px;
     }
 }
-
-@media all and (max-width: 480px)
-{
-    main {
-        max-width: 470px;
-    }
-
-    .activity_card {
-        max-width: 400px;
-    }
-
-    .activity_card img {
-        max-width: 400px;
-        height: 150px;
-    }
-}    
-
-@media all and (max-width: 450px)
-{
-    .activity_card {
-        width: 370px;
-    }
-
-    .activity_card img {
-        max-width: 370px;
-        height: 110px;
-    }
-}    
-
-@media all and (max-width: 420px)
-{
-    .section_search {
-        margin: 0 20px;
-    }
-
-    .activity_card {
-        width: 340px;
-    }
-
-    .activity_card img {
-        max-width: 340px;
-        height: 110px;
-    }
-} 
 
 @media all and (max-width: 380px)
 {
@@ -870,47 +747,8 @@ a {
         max-width: 120px;
         height: 120px;
     }
-
-    .activity_card {
-        max-width: 300px;
-    }
-
-    .activity_card img {
-        max-width: 300px;
-        height: 110px;
-    }
 }
 
-@media all and (max-width: 360px)
-{
-    .nav_link {
-        padding: 30px 30px;
-    }
-    .activity_card {
-        max-width: 280px;
-    }
-
-    .activity_card img {
-        max-width: 280px;
-        height: 110px;
-    }
-}
-
-@media all and (max-width: 320px)
-{
-    .nav_link{
-        padding: 30px 35px;
-    }
-
-    .activity_card {
-        max-width: 250px;
-    }
-
-    .activity_card img {
-        max-width: 250px;
-        height: 110px;
-    }
-}
 
 
 
