@@ -13,6 +13,10 @@ main {
     flex-wrap: wrap;
 }
 
+h1 {
+    font-size: 22px;
+}
+
 ul {
     list-style-type: none;
 }
@@ -20,6 +24,18 @@ ul {
 a {
     color: black;
     text-decoration: none;
+}
+
+.stars {
+    display: flex;
+}
+
+.blue_stars {
+    color: #0065FC;
+}
+
+.grey_stars {
+    color: rgba(168, 161, 163, 0.329);
 }
 
 /* ********** Header ********** */
@@ -53,13 +69,11 @@ a {
 
 /* ********** Search ********** */
 .section_search h1 {
-    font-size: 1.4em;
-    margin-top: 1em ;
-    margin-bottom: 0.4em;
+    margin: 22px 0 8px 0;
 }
 
 .search_area {
-    margin-top: 1em;
+    margin-top: 16px;
     display: flex;
 }
 
@@ -68,7 +82,7 @@ a {
     border-bottom-left-radius: 16px;
     border-top-left-radius: 16px;
     background-color: #F2F2F2;
-    padding: 0.8em;
+    padding: 12.8px;
 }
 
 .search_line {
@@ -76,9 +90,9 @@ a {
     border-left: none;
     border-top: 1px #F2F2F2 solid;
     border-bottom: 1px #F2F2F2 solid;
-    padding: 0.7em 1em;
-    width: 13em;
-    font-size: 1em;
+    padding: 11.2px 16px;
+    width: 208px;
+    font-size: 16px;
     font-weight: bold;
 }
 
@@ -87,10 +101,10 @@ a {
     border-top-right-radius: 16px;
     border: 1px #0065FC solid;
     background-color: #0065FC;
-    padding: 0.8em;
+    padding: 12.8px;
     color: white;
     font-weight: 600;
-    font-size: 1em;
+    font-size: 16px;
     cursor: pointer;
 }
 
@@ -101,7 +115,7 @@ a {
 .div_filters {
     display: flex;
     align-items: center;
-    margin-top: 2em;
+    margin-top: 32px;
 }
 
 .div_filters h2 {
@@ -111,11 +125,10 @@ a {
 .filters_bloc {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 1.5em;
+    margin-left: 24px;
 }
 
 .filter_bubble :hover {
-    font-style: italic;
     background-color: #DEEBFF;
 }
 
@@ -125,19 +138,19 @@ a {
     font-weight: bold;
     display: flex;
     align-items: center;
-    padding-right: 1em;
-    margin-right: 1.5em;
+    padding-right: 16px;
+    margin-right: 24px;
 }
 
 .icon_circle {
     background-color: #DEEBFF;
     border-radius:50%;
-    width:3.1em;
-    height:3.1em;
+    width:49px;
+    height:49px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 0.7em;
+    margin-right: 11px;
 }
 
 .icon_circle :hover {
@@ -151,138 +164,115 @@ a {
 
 .info_div {
     display: flex;
-    margin-top: 2em;
+    margin-top: 32px;
 }
 
 .info_circle {
     background-color: white;
     border: 1px #F2F2F2 solid;
     border-radius:50%;
-    width:1.1em;
-    height:1.1em;
+    width:17.6px;
+    height:17.6px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 0.7em;
+    margin-right: 11px;
 }
 
 /* ********** Lodging ********** */
-#section_lodging {
+.lodging {
+    display: grid;
+    column-gap: 32px;
+    row-gap: 32px;
+    margin-top: 32px;
+    padding: 30px;
     background-color:#F2F2F2;
     border-radius: 12px;
-    margin-top: 2em;
-    width: 750px;  
+    width: 700px;     
 }
 
-#section_lodging h1 {
-    padding-top: 1.5em;
-    padding-left: 1.5em;
-}
-
-.lodging_blocs {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.lodging_bloc1 , .lodging_bloc2 {
-    display: flex;
-    padding: 10px;
-    margin-left: 0.5em;
+.lodging_title {
+    grid-column: 1/-1;
 }
 
 .lodging_card {
-    border: 1px white solid;
-    border-radius: 12px;
     box-shadow: 2px 1px 10px #afaeae;
-    background-color: white;
-    padding: 0.5em;
-    margin: 1em;
+    border-radius: 12px;
+    padding: 8px;
     display: flex;
     flex-direction: column;
-    box-sizing: border-box;
 }
 
-.lodging_card img {
+.lodging_card_img {
+    position: relative;
+    flex: 1;
+}
+
+.lodging_card_img_img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
-    max-width: 185px;
-    width: 100%;
-    max-height: 90px;
     object-fit: cover;
 }
 
 .lodging_card h2 {
-    font-size: 0.85em;
+    font-size: 15px;
 }
 
-.lodging_card p {
-    font-size: 0.8em;
-}
-
-.stars {
-    display: flex;
-}
-
-.blue_stars {
-    color: #0065FC;
-}
-
-.grey_stars {
-    color: rgba(168, 161, 163, 0.329);
+.lodging_card_desc {
+    padding: 3px 0 3px 0;
 }
 
 .show_more {
-    padding: 14px 0 14px 36px;
     font-weight: bold;
 }
 
 /* ********** Aside ********** */
-.section_aside {
+.aside {
+    display: grid;
+    row-gap: 32px;
+    margin-top: 32px;
+    padding: 30px;
     background-color:#F2F2F2;
     border-radius: 12px;
-    margin-top: 2em;
-    width: 410px;
+    width: 300px;
 }
 
 .aside_head {
-    padding-top: 36px;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.aside_bloc {
-    padding: 1em;
+    justify-content: space-between;
 }
 
 .aside_card {
-    border: 1px white solid;
-    border-radius: 12px;
     box-shadow: 2px 1px 10px #afaeae;
-    background-color: white;
-    padding: 0.5em;
-    margin: 1em;
-    width: auto;
-    margin-bottom: 32px;
+    border-radius: 12px;
+    padding: 8px;
     display: flex;
-    box-sizing: border-box;
 }
 
-.aside_card img {
+.aside_card_img {
+    position: relative;
+    flex: 1;
+}
+
+.aside_card_img_img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
     border-top-left-radius: 12px;
     border-bottom-left-radius: 12px;
-    max-width: 100px;
-    width: 100%;
-    height: 100px;
     object-fit: cover;
-    padding-right: 0.9em;
 }
 
 .aside_card h2 {
-    font-size: 0.85em;
+    font-size: 15px;
 }
 
-.description {
+.aside_card_desc {
+    width: 55%;
+    margin-left: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -291,8 +281,8 @@ a {
 /* ********** Activity ********** */
 .activity {
     display: grid;
-    column-gap: 2rem;
-    margin: 4rem 0;
+    column-gap: 32px;
+    margin: 64px 0;
     width: 100%;
 }
 
@@ -303,11 +293,10 @@ a {
 
 .activity_card {
     box-shadow: 0 0 20px #0000002e;
-    border-radius: 1rem;
+    border-radius: 16px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    transition-duration: 0.1s;
 }
 
 .activity_card_img {
@@ -323,17 +312,17 @@ a {
 }
 
 .activity_card_title {
-    margin: 1.2rem 1.5rem;
-    font-size: 1em;
+    margin: 19px 24px;
+    font-size: 16px;
 }
 
 /* ********** Footer ********** */
 .section_footer {
     background-color:#F2F2F2;
     width: 100%;
-    margin-top: 2em;
-    margin-bottom: 1em;
-    padding: 2em 0;
+    margin-top: 32px;
+    margin-bottom: 16px;
+    padding: 32px 0;
     display: flex;
     justify-content: center;
 }
@@ -345,14 +334,22 @@ a {
 }
 
 .footer_element h3 {
-    font-size: 1em;
-    padding-bottom: 1em;
+    font-size: 16px;
+    padding-bottom: 16px;
 }
 
 .footer_element li {
-    padding-bottom: 0.9em;
+    padding-bottom: 14.4px;
 }
 
+
+@media all and (min-width: 1361px)
+{
+    .aside {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 128px 128px 128px;
+    }    
+}
 
 @media all and (max-width: 1360px)
 {
@@ -363,65 +360,34 @@ a {
         flex-wrap: wrap;
     }
 
-    #section_lodging {
+    .aside {
+        width: 100%;
+        order: 1;
+    }
+
+    .lodging {
         width: 100%;
         order: 2;
     }
 
-    #section_activity {
+    .activity {
         order: 3;
     }
-
-    .section_aside {
-        width: 100%;
+ 
+    .aside {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto 160px;
+        column-gap: 32px;
     }
 
-    .aside_head  {
-        padding: 36px 32px 1px 32px;
-        display: flex;
-        justify-content: space-between;
+    .aside_head {
+        grid-column: 1/-1;
     }
-
-    .aside_bloc {
-        display: flex;
-    }
-
-    .aside_card img {
-        max-width: 150px;
-        width: 100%;
-        height: 150px;
-    }
-    
-    .description {
-        padding-left: 10px;
-    }
-
-    .lodging_bloc {
-        display: flex;
-        box-sizing: border-box;
-    }
-
-    .lodging_card img {
-        max-width: 360px;
-        width: 100%;
-        max-height: 110px;
-    }
-    
+        
     .footer_bloc {
         width: 95%;
         display: flex;
         justify-content: space-between;
-    }
-}
-
-@media all and (max-width: 1270px)
-{
-    main {
-        max-width: 1170px;
-    }
-
-    .footer_bloc {
-        width: 90%;
     }
 }
 
@@ -430,26 +396,15 @@ a {
     main {
         max-width: 1080px;
     }
-    
-    .aside_card {
-        max-width: 320px;
-    }
-
-    .aside_card img {
-        max-width: 140px;
-    }
-
-    .aside_card h2 {
-        font-size: 1em;
-    }
 } 
 
 @media all and (min-width: 1100px)
 {
     
+    
     .activity {
         grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: auto 14rem 2rem 2rem 2rem 14rem;
+        grid-template-rows: auto 224px 32px 32px 32px 224px;
     }
 
     .activity_card1 {
@@ -489,17 +444,10 @@ a {
         max-width: 990px;
     }
     .activity {
-        row-gap: 2rem;
+        row-gap: 32px;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: auto 12rem 12rem;
+        grid-template-rows: auto 192px 192px;
       }
-}
-
-@media all and (max-width: 1090px)
-{
-    main {
-        max-width: 980px;
-    }
 }
 
 @media all and (max-width: 990px)
@@ -517,29 +465,33 @@ a {
     }
 }
 
+@media all and (min-width: 900px)
+{
+    .lodging {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto 192px 192px;
+    }
+}
+
 @media all and (max-width: 900px)
 {
     main {
         max-width: 790px;
     }
 
-    .aside_bloc {
-        display: flex;
-        flex-direction: column;
-        margin: 0;
+    .aside {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 160px 160px 160px;
     }
 
-    .aside_card {
-        max-width: 800px;
-    }
-
-    .aside_card img {
-        max-width: 240px;
+    .lodging {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto 192px 192px 192px;
     }
 
     .activity {
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: auto 12rem 12rem 12rem;
+        grid-template-rows: auto 192px 192px 192px;
     }
 }
 
@@ -548,34 +500,12 @@ a {
     main {
         max-width: 690px;
     }
-
-    .lodging_blocs {
-        display: flex;
-    }
-
-    .lodging_bloc1 , .lodging_bloc2 {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-    }
-
-    .lodging_card img {
-        max-width: 265px;
-    }
-
-    .aside_card img {
-        width: 220px;
-    }
 }
 
 @media all and (max-width: 700px)
 {
     main {
         max-width: 590px;
-    }
-
-    .lodging_card img {
-        width: 210px;
     }
 
     .footer_bloc {
@@ -643,32 +573,19 @@ a {
     }
 
     .filters_bloc {
-        margin-left: 0em;
+        margin-left: 0;
     }
 
-    .lodging_bloc1 {
-        padding-bottom: 0;
+    .lodging {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 192px 192px 192px 192px 192px 192px;
     }
 
-    .lodging_bloc2 {
-        padding-top: 0;
-    }
-
-    .lodging_card img {
-        max-width: 400px;
-        width: 100%;
-    }
-    
-    .aside_card img {
-        max-width: 180px;
-    }
-  
     .activity {
         grid-template-columns: 1fr;
-        grid-template-rows: auto 12rem 12rem 12rem 12rem 12rem 12rem;
-        /* width: 95%;
-        margin-left: 8px; */
+        grid-template-rows: auto 192px 192px 192px 192px 192px 192px;
     }
+
     .footer_bloc {
         display: flex;
         flex-direction: column;
@@ -723,45 +640,30 @@ a {
         margin-left: 0;
     }
 
-    #section_lodging {
+    .lodging {
         background-color: white;
     }
 
-    .section_aside {
+    .aside {
         border-radius: 0;
     }
 
-    .aside_card img {
-        max-width: 150px;
-        height: 150px;
-    }
     .activity {
-        margin: 30px 30px 0 30px;
+        padding: 30px 30px 0 30px;
+        margin: 20px 0;
     }
 }
-
-  
 
 @media all and (max-width: 420px)
 {
     .section_search {
-        margin: 0 20px;
-    
+        margin: 0 20px;  
 } 
 
 @media all and (max-width: 380px)
 {
     .section_search {
         margin: 0 15px;
-    }
-
-    .aside_card {
-        margin: 16px;
-    }
-
-    .aside_card img {
-        max-width: 120px;
-        height: 120px;
     }
 }
 
