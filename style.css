@@ -78,7 +78,6 @@ a {
 }
 
 .ico_map {
-    border: 1px #F2F2F2 solid;
     border-bottom-left-radius: 16px;
     border-top-left-radius: 16px;
     background-color: #F2F2F2;
@@ -129,7 +128,7 @@ a {
 }
 
 .filter_bubble :hover {
-    background-color: #DEEBFF;
+    background-color: #DEEBFF; 
 }
 
 .filter {
@@ -151,11 +150,6 @@ a {
     justify-content: center;
     align-items: center;
     margin-right: 11px;
-}
-
-.icon_circle :hover {
-    text-decoration: none;
-    font-style: normal;
 }
 
 .icon_img {
@@ -196,11 +190,15 @@ a {
 }
 
 .lodging_card {
-    box-shadow: 2px 1px 10px #afaeae;
+    box-shadow: 1px 1px 10px #afaeae;
     border-radius: 12px;
     padding: 8px;
     display: flex;
     flex-direction: column;
+}
+
+.lodging_card:hover {
+    transform: scale(1.01);
 }
 
 .lodging_card_img {
@@ -246,10 +244,14 @@ a {
 }
 
 .aside_card {
-    box-shadow: 2px 1px 10px #afaeae;
+    box-shadow: 1px 1px 10px #afaeae;
     border-radius: 12px;
     padding: 8px;
     display: flex;
+}
+
+.aside_card:hover {
+    transform: scale(1.01);
 }
 
 .aside_card_img {
@@ -292,11 +294,15 @@ a {
 }
 
 .activity_card {
-    box-shadow: 0 0 20px #0000002e;
+    box-shadow: 1px 1px 10px #afaeae;
     border-radius: 16px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
+}
+
+.activity_card:hover {
+    transform: scale(1.01);
 }
 
 .activity_card_img {
@@ -342,7 +348,11 @@ a {
     padding-bottom: 14.4px;
 }
 
+.footer_element li:hover {
+    color: #0065FC;
+}
 
+/* ********** Media queries ********** */
 @media all and (min-width: 1361px)
 {
     .aside {
@@ -657,7 +667,8 @@ a {
 @media all and (max-width: 420px)
 {
     .section_search {
-        margin: 0 20px;  
+        margin: 0 20px;
+    }      
 } 
 
 @media all and (max-width: 380px)
@@ -667,21 +678,9 @@ a {
     }
 }
 
-@media all and (max-width: 320px)
+@media all and (max-width: 320px) 
 {
-    .nav_link{
+    .nav_link {
         padding: 30px 35px;
     }
 }
-
-
-
-   
-
-
-
-
-
-
-   
-
