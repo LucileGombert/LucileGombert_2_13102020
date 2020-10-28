@@ -14,7 +14,7 @@ main {
 }
 
 h1 {
-    font-size: 22px;
+    font-size: 1.2rem;
 }
 
 ul {
@@ -42,7 +42,7 @@ a {
 .section_header {
     display: flex;
     align-items: center;
-    margin: 30px 0 30px 0;
+    margin: 1.8rem 0 1.8rem 0;
     width: 100%;
 }
 
@@ -53,15 +53,15 @@ a {
 .header_nav :hover {
     color: #0065FC;
     border-top: 2px  #0065FC solid;
-    padding-top: 35px;
+    padding-top: 2.4rem;
 }
 
 .nav_link {
-    padding: 30px;
+    padding: 1.8rem;
 }
 
 .sign_up {
-    margin-left: 30px;
+    margin-left: 1.8rem;
     color: #0065FC;
     font-weight: bold;
     text-decoration: none;
@@ -69,19 +69,19 @@ a {
 
 /* ********** Search ********** */
 .section_search h1 {
-    margin: 22px 0 8px 0;
+    margin: 1rem 0 0.4rem 0;
 }
 
 .search_area {
-    margin-top: 16px;
+    margin-top: 1rem;
     display: flex;
 }
 
 .ico_map {
-    border-bottom-left-radius: 16px;
-    border-top-left-radius: 16px;
+    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem;
     background-color: #F2F2F2;
-    padding: 12.8px;
+    padding: 0.8rem;
 }
 
 .search_line {
@@ -89,21 +89,21 @@ a {
     border-left: none;
     border-top: 1px #F2F2F2 solid;
     border-bottom: 1px #F2F2F2 solid;
-    padding: 11.2px 16px;
+    padding: 0.7rem 1rem;
     width: 208px;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: bold;
 }
 
 .search_button {
-    border-bottom-right-radius: 16px;
-    border-top-right-radius: 16px;
-    border: 1px #0065FC solid;
+    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 1rem;
     background-color: #0065FC;
-    padding: 12.8px;
+    border: none;
+    padding: 0.8rem;
     color: white;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 1rem;
     cursor: pointer;
 }
 
@@ -114,7 +114,7 @@ a {
 .div_filters {
     display: flex;
     align-items: center;
-    margin-top: 32px;
+    margin-top: 2rem;
 }
 
 .div_filters h2 {
@@ -124,7 +124,7 @@ a {
 .filters_bloc {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 24px;
+    margin-left: 1.5rem;
 }
 
 .filter_bubble :hover {
@@ -133,12 +133,12 @@ a {
 
 .filter {
     border: 2px #F2F2F2 solid;
-    border-radius: 35px;
+    border-radius: 2.1rem;
     font-weight: bold;
     display: flex;
     align-items: center;
-    padding-right: 16px;
-    margin-right: 24px;
+    padding-right: 1rem;
+    margin-right: 1.5rem;
 }
 
 .icon_circle {
@@ -149,7 +149,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 11px;
+    margin-right: 0.7rem;
 }
 
 .icon_img {
@@ -158,7 +158,7 @@ a {
 
 .info_div {
     display: flex;
-    margin-top: 32px;
+    margin-top: 2rem;
 }
 
 .info_circle {
@@ -170,18 +170,18 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 11px;
+    margin-right: 0.7rem;
 }
 
 /* ********** Lodging ********** */
 .lodging {
     display: grid;
-    column-gap: 32px;
-    row-gap: 32px;
-    margin-top: 32px;
-    padding: 30px;
+    column-gap: 2rem;
+    row-gap: 2rem;
+    margin-top: 2rem;
+    padding: 1.8rem;
     background-color:#F2F2F2;
-    border-radius: 12px;
+    border-radius: 0.75rem;
     width: 700px;     
 }
 
@@ -191,8 +191,8 @@ a {
 
 .lodging_card {
     box-shadow: 1px 1px 10px #afaeae;
-    border-radius: 12px;
-    padding: 8px;
+    border-radius: 0.75rem;
+    padding: 0.5rem;
     display: flex;
     flex-direction: column;
 }
@@ -210,17 +210,17 @@ a {
     position: absolute;
     height: 100%;
     width: 100%;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
+    border-top-left-radius: 0.75rem;
+    border-top-right-radius: 0.75rem;
     object-fit: cover;
 }
 
 .lodging_card h2 {
-    font-size: 15px;
+    font-size: 1rem;
 }
 
 .lodging_card_desc {
-    padding: 3px 0 3px 0;
+    padding: 0.2rem 0 0.2rem 0;
 }
 
 .show_more {
@@ -230,11 +230,11 @@ a {
 /* ********** Aside ********** */
 .aside {
     display: grid;
-    row-gap: 32px;
-    margin-top: 32px;
-    padding: 30px;
+    row-gap: 2rem;
+    margin-top: 2rem;
+    padding: 1.8rem;
     background-color:#F2F2F2;
-    border-radius: 12px;
+    border-radius: 0.75rem;
     width: 300px;
 }
 
@@ -245,8 +245,8 @@ a {
 
 .aside_card {
     box-shadow: 1px 1px 10px #afaeae;
-    border-radius: 12px;
-    padding: 8px;
+    border-radius: 0.75rem;
+    padding: 0.5rem;
     display: flex;
 }
 
@@ -263,18 +263,18 @@ a {
     position: absolute;
     width: 100%;
     height: 100%;
-    border-top-left-radius: 12px;
-    border-bottom-left-radius: 12px;
+    border-top-left-radius: 0.75rem;
+    border-bottom-left-radius: 0.75rem;
     object-fit: cover;
 }
 
 .aside_card h2 {
-    font-size: 15px;
+    font-size: 1rem;
 }
 
 .aside_card_desc {
     width: 55%;
-    margin-left: 10px;
+    margin-left: 0.6rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -283,19 +283,19 @@ a {
 /* ********** Activity ********** */
 .activity {
     display: grid;
-    column-gap: 32px;
-    margin: 64px 0;
+    column-gap: 2rem;
+    margin: 4rem 0;
     width: 100%;
 }
 
 .activity_title {
     grid-column: 1/-1;
-    padding-bottom: 30px;
+    padding-bottom: 1.9rem;
 }
 
 .activity_card {
     box-shadow: 1px 1px 10px #afaeae;
-    border-radius: 16px;
+    border-radius: 1rem;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -318,7 +318,7 @@ a {
 }
 
 .activity_card_title {
-    margin: 19px 24px;
+    margin: 1.2rem 1.5rem;
     font-size: 16px;
 }
 
@@ -326,9 +326,9 @@ a {
 .section_footer {
     background-color:#F2F2F2;
     width: 100%;
-    margin-top: 32px;
-    margin-bottom: 16px;
-    padding: 32px 0;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding: 2rem 0;
     display: flex;
     justify-content: center;
 }
@@ -340,12 +340,12 @@ a {
 }
 
 .footer_element h3 {
-    font-size: 16px;
-    padding-bottom: 16px;
+    font-size: 1rem;
+    padding-bottom: 1rem;
 }
 
 .footer_element li {
-    padding-bottom: 14.4px;
+    padding-bottom: 0.9rem;
 }
 
 .footer_element li:hover {
@@ -357,7 +357,7 @@ a {
 {
     .aside {
         grid-template-columns: 1fr;
-        grid-template-rows: auto 128px 128px 128px;
+        grid-template-rows: auto 8rem 8rem 8rem;
     }    
 }
 
@@ -386,8 +386,8 @@ a {
  
     .aside {
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: auto 160px;
-        column-gap: 32px;
+        grid-template-rows: auto 10rem;
+        column-gap: 2rem;
     }
 
     .aside_head {
@@ -414,7 +414,7 @@ a {
     
     .activity {
         grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: auto 224px 32px 32px 32px 224px;
+        grid-template-rows: auto 14rem 2rem 2rem 2rem 14rem;
     }
 
     .activity_card1 {
@@ -454,9 +454,9 @@ a {
         max-width: 990px;
     }
     .activity {
-        row-gap: 32px;
+        row-gap: 2rem;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: auto 192px 192px;
+        grid-template-rows: auto 12rem 12rem;
       }
 }
 
@@ -467,11 +467,11 @@ a {
     }
 
     .div_filters h2 {
-        margin: 0 24px 50px 0;
+        margin: 0 1.5rem 3.1rem 0;
     }
 
     .filter {
-        margin-top: 10px;
+        margin-top: 0.6rem;
     }
 }
 
@@ -479,7 +479,7 @@ a {
 {
     .lodging {
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: auto 192px 192px;
+        grid-template-rows: auto 12rem 12rem;
     }
 }
 
@@ -491,17 +491,17 @@ a {
 
     .aside {
         grid-template-columns: 1fr;
-        grid-template-rows: auto 160px 160px 160px;
+        grid-template-rows: auto 10rem 10rem 10rem;
     }
 
     .lodging {
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: auto 192px 192px 192px;
+        grid-template-rows: auto 12rem 12rem 12rem;
     }
 
     .activity {
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: auto 192px 192px 192px;
+        grid-template-rows: auto 12rem 12rem 12rem;
     }
 }
 
@@ -524,7 +524,7 @@ a {
     }
 
     .footer_element {
-        padding-bottom: 20px;
+        padding-bottom: 1.25rem;
     }
 }
 
@@ -538,7 +538,7 @@ a {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        margin: 10px 0;
+        margin: 0.6rem 0;
     }
 
     .section_header > img {
@@ -560,17 +560,16 @@ a {
         width: 100%;
     }
 
-    .header_nav a {
-        border-bottom: 3px solid #F2F2F2;
-    }
-
     .header_nav :hover {
         border-bottom: 2px  #0065FC solid;
         border-top: none;     
     }
 
     .nav_link {
-        padding: 30px 50px;
+        border-bottom: 3px solid #F2F2F2;
+        width: 50%; 
+        display: flex;
+        justify-content: space-around;
     }
 
     .div_filters {
@@ -579,7 +578,7 @@ a {
     }
 
     .div_filters h2 {
-        margin-bottom: 10px;
+        margin-bottom: 0.6rem;
     }
 
     .filters_bloc {
@@ -588,12 +587,12 @@ a {
 
     .lodging {
         grid-template-columns: 1fr;
-        grid-template-rows: auto 192px 192px 192px 192px 192px 192px;
+        grid-template-rows: auto 12rem 12rem 12rem 12rem 12rem 12rem;
     }
 
     .activity {
         grid-template-columns: 1fr;
-        grid-template-rows: auto 192px 192px 192px 192px 192px 192px;
+        grid-template-rows: auto 12rem 12rem 12rem 12rem 12rem 12rem;
     }
 
     .footer_bloc {
@@ -602,7 +601,7 @@ a {
     }
 
     .footer_element {
-        padding-bottom: 20px;
+        padding-bottom: 1.25rem;
     }
 }
 
@@ -617,15 +616,15 @@ a {
     }
 
     .section_search {
-        margin: 0 30px;
+        margin: 0 0.9rem;
     }
 
     .info_div {
-        margin-top: 30px;
+        margin-top: 1.9rem;
     }
 
     .search_button {
-        border-radius: 16px;
+        border-radius: 1rem;
     }
 
     .rechercher {
@@ -642,8 +641,8 @@ a {
     }
 
     .div_filters h2 {
-        margin-left: 5px;
-        margin-bottom: 10px;
+        margin-left: 0.3rem;
+        margin-bottom: 0.6rem;
     }
 
     .filters_bloc {
@@ -659,28 +658,21 @@ a {
     }
 
     .activity {
-        padding: 30px 30px 0 30px;
-        margin: 20px 0;
+        padding: 1.9rem 1.9rem 0 1.9rem;
+        margin: 1.25rem 0;
     }
 }
 
 @media all and (max-width: 420px)
 {
     .section_search {
-        margin: 0 20px;
+        margin: 0 1.25rem;
     }      
 } 
 
 @media all and (max-width: 380px)
 {
     .section_search {
-        margin: 0 15px;
-    }
-}
-
-@media all and (max-width: 320px) 
-{
-    .nav_link {
-        padding: 30px 35px;
+        margin: 0 0.9rem;
     }
 }
